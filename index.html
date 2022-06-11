@@ -15,8 +15,46 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello</h1>
-      <a href="" class="btn btn-primary">Click me</a>
+      <div class="weater-app">
+        <form>
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Enter a city..."
+                class="form-control search-input"
+                autofocus="on"
+                id="search-text-input"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                class="btn btn-primary w-100"
+                value="Search"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col-6">
+            <h1>New York</h1>
+            <ul>
+              <li>Friday, 14:42, clear sky</li>
+              <li>Humidity: %, Wind: km/h</li>
+            </ul>
+          </div>
+          <div class="col-6">20 °C</div>
+        </div>
+      </div>
+      <small>
+        <a
+          href="https://github.com/sabinahorlova/My-weather-app"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Sabina Horlova
+      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
