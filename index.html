@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="weater-app">
+      <div class="weather-app">
         <form>
           <div class="row">
             <div class="col-9">
@@ -40,21 +40,54 @@
           <div class="col-6">
             <h1>New York</h1>
             <ul>
-              <li>Friday, 14:42, clear sky</li>
+              <li>Friday 14:42, clear sky</li>
               <li>Humidity: %, Wind: km/h</li>
             </ul>
           </div>
-          <div class="col-6">20 °C</div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <canvas width="52" height="52"></canvas>
+            <span class="temperature">20</span> <span class="unit">°C</span>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="row">
+            <div class="col">
+              <div class="forecast-time">Sat</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">26° 28°</div>
+            </div>
+            <div class="col">
+              <div class="forecast-time">Sat</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">26° 28°</div>
+            </div>
+            <div class="col">
+              <div class="forecast-time">Sat</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">26° 28°</div>
+            </div>
+            <div class="col">
+              <div class="forecast-time">Sat</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">26° 28°</div>
+            </div>
+            <div class="col">
+              <div class="forecast-time">Sat</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">26° 28°</div>
+            </div>
+          </div>
+          <footer>
+            <a
+              href="https://github.com/sabinahorlova/My-weather-app"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Sabina Horlova
+          </footer>
         </div>
       </div>
-      <small>
-        <a
-          href="https://github.com/sabinahorlova/My-weather-app"
-          target="_blank"
-          >Open-source code</a
-        >
-        by Sabina Horlova
-      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
