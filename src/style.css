@@ -1,5 +1,5 @@
 body {
-  background: #eaf6f6;
+  background: #ffffff;
 }
 
 .weather-app {
@@ -8,7 +8,7 @@ body {
   padding: 40px;
   border: 1px solid #272343;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-  background: #ffffff;
+  background: #eaf6f6;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   color: #272343;
@@ -16,7 +16,7 @@ body {
 
 .search-input {
   border: none;
-  background: #eaf6f6;
+  background: #bae8e8;
   border-radius: 6px;
   color: rgba(39, 33, 66, 0.4);
 }
@@ -63,6 +63,11 @@ li::first-letter {
   text-transform: capitalize;
 }
 
+img {
+  position: relative;
+  top: -22px;
+}
+
 .temperature {
   margin-left: 10px;
   font-weight: 700;
@@ -88,7 +93,7 @@ li::first-letter {
 .forecast-time {
   text-align: center;
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #f76b8a;
 }
 
 footer {
@@ -96,4 +101,12 @@ footer {
   text-align: center;
   font-size: 14px;
   color: rgba(39, 33, 66, 0.4);
+}
+
+.humidity {
+  color: #f76b8a;
+}
+
+.wind {
+  color: #f76b8a;
 }

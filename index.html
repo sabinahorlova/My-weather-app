@@ -17,7 +17,7 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <form>
+        <form id="search-form">
           <div class="row">
             <div class="col-9">
               <input
@@ -42,18 +42,18 @@
             <h1 id="city"></h1>
             <ul>
               <li>
-                <span id="date"></span>,
+                Updated: <span id="date"></span>,
                 <span id="description"></span>
               </li>
               <li>
-                Humidity: <span id="humidity"></span>%, Wind:
-                <span id="wind"></span>km/h
+                Humidity:
+                <span class="humidity"><span id="humidity"></span>%</span>,
+                Wind: <span class="wind"><span id="wind"></span>km/h</span>
               </li>
             </ul>
           </div>
-          <div class="col-1"></div>
-          <div class="col-5">
-            <canvas width="52" height="52"></canvas>
+          <div class="col-6">
+            <img src="" alt="" id="icon" />
             <span class="temperature" id="temperature"></span>
             <span class="unit">°C</span>
           </div>

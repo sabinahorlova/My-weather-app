@@ -36,8 +36,30 @@ function showWeather(response) {
   document.querySelector("#date").innerHTML = formatDate(
     response.data.dt * 1000
   );
+  document
+    .querySelector("#icon")
+    .setAttribute(
+      "src",
+      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
+  document
+    .querySelector("#icon")
+    .setAttribute("alt", response.data.weather[0].description);
 }
 
-let apiKey = "3a654bc3e678a3417911bfe908b59193";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=New York&appid=${apiKey}&units=metric`;
-axios.get(apiUrl).then(showWeather);
+function search(city) {
+  let apiKey = "3a654bc3e678a3417911bfe908b59193";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showWeather);
+}
+
+function formSubmit(event) {
+  event.preventDefault();
+  let cityElement = document.querySelector("#search-text-input");
+  search(cityElement.value);
+}
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", formSubmit);
+
+search("New York");
