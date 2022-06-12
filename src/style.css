@@ -59,6 +59,10 @@ li {
   color: rgba(39, 33, 66, 0.4);
 }
 
+li::first-letter {
+  text-transform: capitalize;
+}
+
 .temperature {
   margin-left: 10px;
   font-weight: 700;
