@@ -8,7 +8,7 @@ body {
   padding: 40px;
   border: 1px solid #272343;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-  background: #eaf6f6;
+  background: #2e94b9;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   color: #272343;
@@ -16,19 +16,19 @@ body {
 
 .search-input {
   border: none;
-  background: #bae8e8;
+  background: #acdcee;
   border-radius: 6px;
   color: rgba(39, 33, 66, 0.4);
 }
 
 .btn {
-  background: #bae8e8;
+  background: #acdcee;
   color: #272343;
   border: none;
 }
 
 .btn:hover {
-  border: 1px solid #bae8e8;
+  border: 1px solid #acdcee;
   background: #ffffff;
   color: #272343;
   cursor: pointer;
@@ -56,7 +56,7 @@ li {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #f0fbff;
 }
 
 li::first-letter {
@@ -81,34 +81,19 @@ img {
   color: #272343;
 }
 
-.weather-forecast {
-  margin-top: 40px;
-}
-
-.forecast-temperature {
-  font-size: 18px;
-  text-align: center;
-}
-
-.forecast-time {
-  text-align: center;
-  font-size: 16px;
-  color: #f76b8a;
-}
-
 footer {
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #f0fbff;
 }
 
 .humidity {
-  color: #f76b8a;
+  color: #272343;
 }
 
 .wind {
-  color: #f76b8a;
+  color: #272343;
 }
 
 .unit .active {
