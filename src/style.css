@@ -69,16 +69,16 @@ img {
 }
 
 .temperature {
-  margin-left: 10px;
   font-weight: 700;
   font-size: 80px;
 }
 
 .unit {
-  font-size: 28px;
+  font-size: 21px;
   font-weight: 400;
   position: relative;
-  top: -34px;
+  top: -40px;
+  color: #272343;
 }
 
 .weather-forecast {
@@ -109,4 +109,14 @@ footer {
 
 .wind {
   color: #f76b8a;
+}
+
+.unit .active {
+  color: #272343;
+  cursor: default;
+  text-decoration: none;
+}
+
+.unit .active:hover {
+  text-decoration: none;
 }
