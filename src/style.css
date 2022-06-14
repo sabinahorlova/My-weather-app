@@ -70,11 +70,11 @@ img {
 
 .temperature {
   font-weight: 700;
-  font-size: 80px;
+  font-size: 86px;
 }
 
 .unit {
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 400;
   position: relative;
   top: -40px;
