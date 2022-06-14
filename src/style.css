@@ -105,3 +105,23 @@ footer {
 .unit .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: #272343;
+}
+
+.forecast-icon {
+  position: relative;
+  top: 22px;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+  color: #f0fbff;
+}
